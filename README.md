@@ -1,9 +1,23 @@
-# Estudos HTML e CSS
-Repositório de estudos de HTML, CSS e tecnologias front-end com projetos práticos e experimentos.
+# 🌐 Web Development
 
------
+> Estudos e projetos com HTML, CSS e tecnologias web
 
-### Autor
+## 📖 Sobre
 
-  * **Manoel Teles**
-  * **LinkedIn:** [Manoel Pedro](https://www.linkedin.com/in/manoeltelesps)
+Repositório com conteúdos relacionados ao desenvolvimento web front-end.
+
+## 🚀 Tecnologias
+
+- HTML5
+- CSS3  
+- JavaScript
+
+## 📁 Conteúdo
+
+- Exercícios e exemplos práticos
+- Projetos de diferentes níveis
+- Experimentos com novas tecnologias
+
+---
+**Desenvolvido por [Manoel Pedro](https://www.linkedin.com/in/manoeltelesps)**
+
