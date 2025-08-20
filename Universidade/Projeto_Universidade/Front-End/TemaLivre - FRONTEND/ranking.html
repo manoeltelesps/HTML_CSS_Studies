@@ -1,0 +1,214 @@
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking - BS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="Imagens/c4icone.png" type="image/png">
+
+    <style>
+      .navbar {
+          background-color: #242D36;
+          font-family: 'Helvetica', sans-serif;
+          transition: top 0.3s;
+          position: fixed;
+          width: 100%;
+          top: 0;
+          z-index: 1000;
+      }
+
+      .navbar-nav .nav-link {
+          color: white !important;
+      }
+      .table {
+          font-family: 'Helvetica', sans-serif;
+      }
+
+      .table th,
+      .table td {
+          color: #343a40;
+      }
+
+      body {
+          background-color: #313840;
+          color: white;
+          font-family: 'Helvetica', sans-serif;
+      }
+      .nav-link.active {
+            font-weight: bold;
+        }
+        .nav-link:hover {
+            color: #ffc107 !important;
+        }
+        .table {
+            background-color: #3b444d;
+            color: #ffffff;
+       }
+        .table td {
+            background-color: #242D36;
+            color: #ffffff;
+            border: 2px solid #3b444d;
+      }
+      .table th {
+            background-color: #242D36;
+            color: #ffffff;
+            border: 2px solid #3b444d;
+      }
+      footer {
+          background-color: #242D36;
+          color: #ffffff;
+          padding: 10px 0;
+          text-align: center;
+          font-family: 'Helvetica', sans-serif;
+          bottom: 0;
+          width: 100%;
+      }
+  </style>
+
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html"> <img src="Imagens/c4icone.png" width="30"> </a>
+          <a class="nav-link active" aria-current="page" href="ranking.html">Ranking</a>
+          <a class="nav-link active" aria-current="page" href="noticias.html">Notícias</a>
+          <a class="nav-link active" aria-current="page" href="mapas.html">Mapas</a>
+          <a class="nav-link active" aria-current="page" href="major.html">Major</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<div class="container mt-4">
+    <div class="row text-center">
+        <div class="col-12 margem"> <br> <br> <br> <br>
+            <p class="h3"><b> Classificação das Equipes - 3ª Semana Maio  </b></p> <br> <br> 
+        </div>
+        <div class="col margem">
+            <p style="text-align: justify;">O CS2 Team Ranking da Valve é um sistema meticuloso de classificação que foi concebido para avaliar e classificar as equipes que competem no cenário competitivo do Counter-Strike 2. Atualizado semanalmente, este sistema analisa uma variedade de métricas, incluindo o desempenho das equipes em torneios de prestígio, partidas importantes e outros eventos relevantes.</p>
+            <p style="text-align: justify;">Cada equipe é avaliada com base em critérios como a consistência de suas performances, a qualidade dos adversários enfrentados e os resultados obtidos em confrontos diretos. Além disso, o sistema também leva em consideração o contexto dos torneios e partidas, como o tamanho do evento, a relevância dos times participantes e a importância dos jogos em si.</p>
+            <p style="text-align: justify;">Por meio dessa análise abrangente, o CS2 Team Ranking da Valve busca fornecer uma representação precisa e atualizada do panorama competitivo do Counter-Strike 2. Essa classificação não só reconhece as equipes mais consistentes e bem-sucedidas, mas também ajuda a orientar espectadores, organizações e jogadores sobre as tendências e dinâmicas em constante mudança no mundo do CS2.</p>
+        </div> <br> <br>
+        <div class="container margem">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="row" class="text-small text-center">Posição</th>
+                        <th class="text-small text-center">Pontos</th>
+                        <th class="text-small text-center">Equipe</th>
+                        <th class="text-small text-center">País</th>
+                        <th class="text-large text-center">Jogadores</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" class="text-small text-center">1</th>
+                        <td class="text-small text-center">1924</td>
+                        <td class="text-small text-center">
+                            <img src="Imagens/times/navi-logo.png" alt="NAVI" style="width: 20px; height: 20px; margin-right: 5px;"> NAVI
+                        </td>
+                        <td class="text-small text-center">UA</td>
+                        <td class="text-large">Aleksib, b1t, iM, jL, w0nderful</td>
+                    </tr>
+                    <tr>
+                      <th scope="row" class="text-small text-center">2</th>
+                      <td class="text-small text-center">1924</td>
+                      <td class="text-small text-center">
+                          <img src="Imagens/times/Faze_Clan.svg.png" alt="FaZe" style="width: 20px; height: 15px; margin-right: 5px;"> FaZe
+                      </td>
+                      <td class="text-small text-center">US</td>
+                      <td class="text-large">broky, frozen, karrigan, rain, ropz</td>
+                  </tr>
+                  <tr>
+                     <th scope="row" class="text-small text-center">3</th>
+                     <td class="text-small text-center">1861</td>
+                     <td class="text-small text-center">
+                            <img src="Imagens/times/Mouz_logo.png" alt="MOUZ" style="width: 20px; height: 20px; margin-right: 5px;"> MOUZ
+                     </td>
+                     <td class="text-small text-center">DE</td>
+                     <td class="text-large">Brollan, Jimpphat, siuhy, torzsi, xertioN</td>
+                    </tr>
+                    <tr>
+                      <th scope="row" class="text-small text-center">4</th>
+                      <td class="text-small text-center">1854</td>
+                      <td class="text-small text-center">
+                          <img src="Imagens/times/spirit-logo.png" alt="Spirit" style="width: 20px; height: 22px; margin-right: 5px;"> Spirit
+                      </td>
+                      <td class="text-small text-center">RU</td>
+                      <td class="text-large">chopper, donk, magixx, sh1ro, zont1x</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="text-small text-center">5</th>
+                        <td class="text-small text-center">1841</td>
+                        <td class="text-small text-center">
+                            <img src="Imagens/times/vitality-logo.png" alt="Vitality" style="width: 20px; height: 23px; margin-right: 5px;">  Vitality
+                        </td>
+                          <td class="text-small text-center">FR</td>
+                           <td class="text-large">apEX, flameZ, mezzi, Spinx, ZywOo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="text-small text-center">6</th>
+                        <td class="text-small text-center">1765</td>
+                        <td class="text-small text-center">
+                              <img src="Imagens/times/g2-logo.jpg" alt="G2" style="width: 20px; height: 20px; margin-right: 5px;">  G2
+                        </td>
+                        <td class="text-small text-center">FR</td>
+                        <td class="text-large">HooXi, huNter-, m0NESY, nexa, NiKo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="text-small text-center">7</th>
+                        <td class="text-small text-center">1675</td>
+                        <td class="text-small text-center">
+                                <img src="Imagens/times/vp-logo.jpg" alt="Virtus.pro" style="width: 20px; height: 20px; margin-right: 5px;">  Virtus.pro
+                        </td>
+                        <td class="text-small text-center">RU</td>
+                        <td class="text-large">electroNic, fame, FL1T, Jame, n0rb3r7</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="text-small text-center">8</th>
+                        <td class="text-small text-center">1672</td>
+                        <td class="text-small text-center">
+                                <img src="Imagens/times/ef-logo.jpg" alt="Eternal Fire" style="width: 25px; height: 30px; margin-right: 5px;">  Eternal Fire
+                        </td>
+                        <td class="text-small text-center">TR</td>
+                        <td class="text-large">Calyx, MAJ3R, Wicadia, woxic, XANTARES</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="text-small text-center">9</th>
+                        <td class="text-small text-center">1622</td>
+                        <td class="text-small text-center">
+                                <img src="Imagens/times/mibr-logo.jpg" alt="MIBR" style="width: 30px; height: 30px; margin-right: 5px;">  MIBR
+                        </td>
+                        <td class="text-small text-center">BR</td>
+                        <td class="text-large">brnz4n, drop, exit, insani, saffe</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="text-small text-center">10</th>
+                        <td class="text-small text-center">1617</td>
+                        <td class="text-small text-center">
+                                <img src="Imagens/times/astralis-logo.jpg" alt="Astralis" style="width: 25px; height: 23px; margin-right: 5px;">  Astralis
+                        </td>
+                        <td class="text-small text-center">DK</td>
+                        <td class="text-large">br0, device, jabbi, Staehr, stavn</td>
+                      </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div> <br> <br>
+
+
+<footer>
+  <p>&copy; 2024 Bomb Site. Todos os direitos reservados.</p>
+  <p><a href="https://www.valvesoftware.com/" target="_blank" style="color: #ffffff;">Valve Corporation</a> | <a href="https://www.eslgaming.com/" target="_blank" style="color: #ffffff;">ESL</a> | <a href="https://www.dreamhack.com/" target="_blank" style="color: #ffffff;">DreamHack</a></p>
+  <p>Contato: <a href="mailto:info@bombsite.com" style="color: #ffffff;">info@bombsite.com</a></p>
+</footer>
+</body>
+</html>
